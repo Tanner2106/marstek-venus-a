@@ -1,13 +1,11 @@
 {
   "domain": "marstek_venus_a",
   "name": "Marstek Venus A",
-  "version": "1.0.0",
-  "documentation": "https://github.com/marstek/open-api",
-  "issue_tracker": "",
-  "requirements": [],
-  "dependencies": [],
   "codeowners": [],
-  "config_flow": true,
-  "iot_class": "local_polling",
+  "dependencies": [],
+  "documentation": "https://github.com/marstek/open-api",
   "integration_type": "device"
+  "iot_class": "local_polling",
+  "requirements": [],
+  "config_flow": true,
 }
