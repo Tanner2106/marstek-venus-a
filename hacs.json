@@ -1,6 +1,5 @@
 {
   "name": "Marstek Venus A (local API)",
-  "zip_release": true,
-  "hide_default_branch": false,
-  "filename": "marstek_venus_a.zip"
+  "homeassistant": "2026.4.0",
+  "hacs": "2.0.0"
 }
