@@ -1,0 +1,33 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Configura Marstek Venus",
+        "description": "Inserisci l'IP del dispositivo e gli intervalli di polling. Assicurati che l'Open API sia abilitata nell'app Marstek.",
+        "data": {
+          "host": "Indirizzo IP del dispositivo",
+          "port": "Porta UDP (default 30000)",
+          "grid_interval": "Intervallo potenza verso casa (secondi)",
+          "pv_interval": "Intervallo MPPT (secondi)"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Impossibile raggiungere il dispositivo. Controlla IP, porta e che l'Open API sia abilitata."
+    },
+    "abort": {
+      "already_configured": "Questo dispositivo è già configurato."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Marstek Venus – Intervalli di polling",
+        "data": {
+          "grid_interval": "Intervallo potenza verso casa (secondi)",
+          "pv_interval": "Intervallo MPPT (secondi)"
+        }
+      }
+    }
+  }
+}

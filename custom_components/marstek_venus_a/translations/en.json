@@ -1,0 +1,33 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Configure Marstek Venus",
+        "description": "Enter the device IP and poll intervals. Make sure the Open API is enabled in the Marstek app.",
+        "data": {
+          "host": "Device IP address",
+          "port": "UDP port (default 30000)",
+          "grid_interval": "Home power poll interval (seconds)",
+          "pv_interval": "MPPT poll interval (seconds)"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Cannot reach the device. Check IP, port, and that the Open API is enabled in the Marstek app."
+    },
+    "abort": {
+      "already_configured": "This device is already configured."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Marstek Venus – Poll intervals",
+        "data": {
+          "grid_interval": "Home power poll interval (seconds)",
+          "pv_interval": "MPPT poll interval (seconds)"
+        }
+      }
+    }
+  }
+}
