@@ -81,7 +81,7 @@ class MarstekConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):
 
         schema = vol.Schema(
             {
-                vol.Required(CONF_HOST, default="192.168.1.100"): str,
+                vol.Required(CONF_HOST, default="192.168.1.199"): str,
                 vol.Required(CONF_PORT, default=DEFAULT_PORT): vol.All(
                     int, vol.Range(min=1024, max=65535)
                 ),
