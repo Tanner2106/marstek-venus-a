@@ -1,2 +1,2 @@
 # marstek-tanner
-Marstek personal integration
+Personal integration for integrate in Home Assistant Marstek Venus A with local API
