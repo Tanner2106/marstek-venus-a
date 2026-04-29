@@ -1,7 +1,7 @@
 {
-  "domain": "marstek_venus",
-  "name": "Marstek Venus",
-  "version": "2.0.0",
+  "domain": "marstek_venus_a",
+  "name": "Marstek Venus A",
+  "version": "1.0.0",
   "documentation": "https://github.com/marstek/open-api",
   "issue_tracker": "",
   "requirements": [],
